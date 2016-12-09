@@ -1,0 +1,87 @@
+body {
+  background: #fff;
+  margin: 0;
+  background-image: url("http://aquaterraca.ca/wp-content/uploads/2015/11/OutdoorFieldNight4_0.jpg")
+}
+
+h1 {
+
+    margin: 0;
+
+}
+
+h2 {
+  text-align: center;
+  color: white;
+
+}
+
+p {
+  text-align: center;
+  color: black;
+
+}
+
+
+
+header, footer {
+    background: #20B2AA;
+}
+
+nav li {
+    display: inline-block;
+    padding: 1em;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.content section {
+    padding: 1em;
+    flex: 1 1 25%;
+    width: 25%;
+
+}
+
+nav li {
+    padding: 1em;
+    display: inline-block;
+
+}
+
+.start-text{
+  font-size: 48px;
+  color: blue;
+}
+
+.find-text{
+  font-size: 48px;
+  color: #7FFFD4;
+}
+
+.left-container{
+  width: 40%;
+  margin: auto;
+  margin-left: 15%;
+  margin-top: 20%;
+}
+
+.right-container{
+  width: 40%;
+  margin: auto;
+  margin-top: 20%;
+}
+/* Media Queries */
+@media (max-width: 600px) {
+    .content section {
+        flex: 1 1 50%;
+        width: 50%;
+    }
+}
+
+@media (max-width: 900px) {
+
+}
